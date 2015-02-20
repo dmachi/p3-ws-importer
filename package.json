@@ -1,0 +1,19 @@
+{
+  "name": "p3-ws-importer",
+  "version": "0.0.0",
+  "description": "utility to import into p3 workspaces",
+  "author": "Dustin Machi <dmachi@dojotoolkit.org>",
+  "main": "index.js",
+  "bin" : { "p3-ws-import" : "./import.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "fs-extra": "~0.16.3",
+    "nconf": "~0.7.1",
+    "promised-io": "~0.3.4",
+    "request": "~2.53.0"
+  }
+}
